@@ -13,7 +13,7 @@
           <directory>./Api/</directory>
       </testsuite>
       <testsuite name="Infrastructure">
-         <directory>./infrastructure/</directory>
+         <directory>./infrastructure</directory>
       </testsuite>
     </testsuites>
     <php>

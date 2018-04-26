@@ -1,9 +1,8 @@
 # Larapi
 
-Larapi is an API-friendly fork of Laravel, batteries included. If you want to read a more in-depth description 
-of the offerings and how to do modern API development in Laravel I have written a series of blogposts on the topic.
+My Larapi is fork of [Larapi](https://github.com/esbenp/larapi) created by [Esbenp](https://github.com/esbenp). I develop my own ideas and features on this repository it a good boilerplate for your RESTfull API based on Laravel.
 
-[A Modern REST API in Laravel 5](http://esbenp.github.io/2016/04/11/modern-rest-api-laravel-part-0/)
+## Pacakges
 
 Larapi comes included with...
 * Laravel 5.6
@@ -15,14 +14,8 @@ Larapi comes included with...
 * [Optimus\Genie](https://github.com/esbenp/genie): A base repository class for requesting entities from your database. Includes integration with Bruno.
 * [Optimus\Architect](https://github.com/esbenp/architect): A library for creating advanced structures of related entities
 * [Optimus\ApiConsumer](https://github.com/esbenp/laravel-api-consumer): A small class for making internal API requests 
-
-## Motivation
-
-We maintain a fairly large Laravel API at [Traede](https://traede.com). Our philosophy is to utilize the framework as much as possible. 
-However, we also strongly feel that the amount of people that use Laravel for API development is not as large as it could be. 
-We *feel* that Laravel as a framework tries to focus more on traditional web development (i.e. rendering HTML). We try to modify the framework 
-just a little bit so it is more suited for API development. Larapi is the result of the changes we have made at Traede in order 
-to make Laravel more enjoyable as an API framework.
+* [Versoo\LarapiFast](https://github.com/versoo/larapi-fast): A small, simple package for making full resource folders with console commands.
+* [Versoo\LaravelPassportGoogleLogin](https://github.com/Versoo/laravel-passport-google-login): Package to grant Passport AccessToken from Google API Token
 
 ## Installation 
 
@@ -108,8 +101,8 @@ You can refresh a new token by requesting `POST /login/refresh` and logout using
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/esbenp/architect/blob/master/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/Versoo/larapi/blob/master/CONTRIBUTING.md) for details.
 
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/esbenp/architect/blob/master/LICENSE) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/Versoo/larapi/blob/master/LICENSE) for more information.

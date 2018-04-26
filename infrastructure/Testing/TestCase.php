@@ -26,4 +26,8 @@ class TestCase extends LaravelTestCase
 
         return $app;
     }
+
+    public function showVersionTest() {
+    	$this->get('/');
+    }
 }
