@@ -2,7 +2,6 @@
 
 namespace Infrastructure\Auth;
 
-use App;
 use Infrastructure\Auth\Bridge\AccessTokenRepository;
 use Laravel\Passport\Bridge\ClientRepository;
 use Laravel\Passport\Bridge\ScopeRepository;

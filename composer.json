@@ -18,6 +18,7 @@
     "optimus/genie": "~2.0",
     "optimus/heimdal": "~1.0",
     "sentry/sentry": "~1.6",
+    "lcobucci/jwt": "^3.2",
     "versoo/laravel-passport-google-login": "dev-master"
   },
   "require-dev": {
